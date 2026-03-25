@@ -1,0 +1,211 @@
+﻿<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SOUM ART DECOR - Atelier de calligraphie artisanale, cartes de mariage, cartes de visite et affiches personnalisees."
+    />
+    <title>SOUM ART DECOR | Calligraphie Artisanale</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Retour en haut">
+          <span class="seal" aria-hidden="true">SA</span>
+          <span class="brand-text">
+            <strong>SOUM ART DECOR</strong>
+            <small>Calligraphie | Graphisme | Peinture</small>
+          </span>
+        </a>
+
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+          <span class="sr-only">Ouvrir le menu</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+
+        <nav class="menu" id="menu" aria-label="Navigation principale">
+          <a href="#services">Services</a>
+          <a href="#produits">Produits</a>
+          <a href="#galerie">Galerie</a>
+          <a href="#contact" class="chip">Commander</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="label">ATELIER ARTISANAL</p>
+            <h1>Lettres qui racontent une histoire.</h1>
+            <p class="intro">
+              SOUM ART DECOR cree des compositions calligraphiques sur mesure pour mariage, marque et decoration.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#produits">Voir les creations</a>
+              <a class="btn ghost" href="#contact">Demander un devis</a>
+            </div>
+            <ul class="facts" aria-label="Points forts">
+              <li>Livraison locale et internationale</li>
+              <li>Maquette avant validation</li>
+              <li>Delais clairs et accompte simple</li>
+            </ul>
+          </div>
+
+          <figure class="hero-art" aria-label="Apercu des creations">
+            <img src="IMG_20260325_202515_232.jpg" alt="Affiche de presentation SOUM ART DECOR" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reveal" id="services">
+        <div class="container">
+          <div class="head">
+            <p class="label">SERVICES</p>
+            <h2>Un style elegant et lisible sur tous supports</h2>
+          </div>
+          <div class="service-grid">
+            <article>
+              <h3>Calligraphie sur mesure</h3>
+              <p>Prenoms, citations, voeux, enveloppes et textes ceremonie avec finition soignee.</p>
+            </article>
+            <article>
+              <h3>Cartes mariage</h3>
+              <p>Invitation, menu, marque-place et plan de table avec ligne graphique coherente.</p>
+            </article>
+            <article>
+              <h3>Cartes de visite</h3>
+              <p>Identite visuelle claire, composition pro et fichiers adaptes a l impression.</p>
+            </article>
+            <article>
+              <h3>Affiches publicitaires</h3>
+              <p>Visuels impactants pour campagne locale, lancement produit et communication evenementielle.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt reveal" id="produits">
+        <div class="container">
+          <div class="head">
+            <p class="label">PRODUITS</p>
+            <h2>Collections a personnaliser</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product">
+              <span>Collection 01</span>
+              <h3>Invitation Mariage Prestige</h3>
+              <p>Papier texture, encre noire ou or, enveloppe assortie.</p>
+            </article>
+            <article class="product">
+              <span>Collection 02</span>
+              <h3>Pack Identite Artisan</h3>
+              <p>Logo manuscrit, carte de visite et template reseaux sociaux.</p>
+            </article>
+            <article class="product">
+              <span>Collection 03</span>
+              <h3>Affiche Citation Signature</h3>
+              <p>Format A4 a A1, style moderne ou traditionnel.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="galerie">
+        <div class="container">
+          <div class="head">
+            <p class="label">GALERIE</p>
+            <h2>Extraits de realisations</h2>
+          </div>
+
+          <div class="gallery" aria-label="Galerie des travaux">
+            <button class="shot" type="button" data-title="Serie Mariage" data-copy="Invitations et menus avec harmonie typographique.">
+              <img src="IMG_20260325_202515_232.jpg" alt="Exemple de creation mariage" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-title="Affiche Promotion" data-copy="Composition calligraphie et graphisme pour campagne locale.">
+              <img src="IMG_20260325_202515_232.jpg" alt="Exemple d affiche calligraphie" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-title="Carte Signature" data-copy="Mise en page elegante pour professionnel et entrepreneur.">
+              <img src="IMG_20260325_202515_232.jpg" alt="Exemple de carte de visite" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt reveal" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <div class="head left">
+              <p class="label">CONTACT</p>
+              <h2>Parlons de votre projet</h2>
+            </div>
+            <p class="contact-text">
+              Donnez le type de support, le format, la quantite et la date souhaitee. Vous recevez une proposition claire.
+            </p>
+            <ul class="contact-list">
+              <li>Email: <a href="mailto:soumailabalima12@gmail.com">soumailabalima12@gmail.com</a></li>
+              <li>WhatsApp: <a href="https://wa.me/22672587891" target="_blank" rel="noopener noreferrer">+226 72 58 78 91</a></li>
+              <li>Delai de reponse: 24 a 48h</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Nom
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Type de demande
+              <select name="type" required>
+                <option value="">Choisir</option>
+                <option value="Mariage">Mariage</option>
+                <option value="Carte de visite">Carte de visite</option>
+                <option value="Affiche">Affiche</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn" type="submit">Preparer le message</button>
+            <p class="small">Le bouton ouvre votre application email avec message pre-rempli.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>SOUM ART DECOR - <span id="year"></span></p>
+        <a href="#top">Retour en haut</a>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Apercu image">
+      <button type="button" class="close" aria-label="Fermer">X</button>
+      <img id="lightboxImg" alt="Apercu" />
+      <h3 id="lightboxTitle"></h3>
+      <p id="lightboxCopy"></p>
+    </dialog>
+  </body>
+</html>
