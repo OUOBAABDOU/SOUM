@@ -92,33 +92,6 @@ for (const shot of document.querySelectorAll(".shot")) {
   });
 }
 
-const contactForm = document.getElementById("contactForm");
-if (contactForm instanceof HTMLFormElement) {
-  contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const data = new FormData(contactForm);
-    const name = String(data.get("name") || "").trim();
-    const email = String(data.get("email") || "").trim();
-    const type = String(data.get("type") || "").trim();
-    const message = String(data.get("message") || "").trim();
-
-    const subject = `Demande de devis - ${type || "Calligraphie"}`;
-    const body = [
-      `Nom: ${name}`,
-      `Email: ${email}`,
-      `Type: ${type}`,
-      "",
-      "Message:",
-      message,
-      "",
-      "Envoye depuis le site SOUM ART DECOR"
-    ].join("\n");
-
-    window.location.href = `mailto:soumailabalima12@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  });
-}
-
 const observer = new IntersectionObserver(
   (entries) => {
     for (const entry of entries) {
