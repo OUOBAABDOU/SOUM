@@ -1,16 +1,16 @@
 ﻿:root {
-  --ink: #181514;
-  --paper: #efe4d0;
-  --paper-soft: #f6efe2;
-  --wood: #8d5f3b;
-  --gold: #c59a4b;
-  --wine: #6d2f28;
-  --text: #201a17;
-  --muted: #5d5048;
-  --line: rgba(32, 26, 23, 0.2);
+  --ink: #0f3250;
+  --paper: #d7efff;
+  --paper-soft: #eef8ff;
+  --wood: #3b83b8;
+  --gold: #71c2f8;
+  --wine: #1f78be;
+  --text: #12314a;
+  --muted: #3e6785;
+  --line: rgba(18, 49, 74, 0.2);
 
   --radius: 18px;
-  --shadow: 0 16px 40px rgba(24, 21, 20, 0.16);
+  --shadow: 0 16px 40px rgba(15, 50, 80, 0.16);
   --max: 1120px;
 
   --font-body: "Manrope", sans-serif;
@@ -32,7 +32,7 @@ body {
   line-height: 1.55;
   background:
     radial-gradient(1400px 550px at 18% -8%, rgba(255, 255, 255, 0.68), transparent 65%),
-    radial-gradient(900px 450px at 90% 8%, rgba(197, 154, 75, 0.18), transparent 60%),
+    radial-gradient(900px 450px at 90% 8%, rgba(113, 194, 248, 0.3), transparent 60%),
     linear-gradient(180deg, var(--paper) 0%, var(--paper-soft) 100%);
 }
 
@@ -72,7 +72,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: rgba(246, 239, 226, 0.88);
+  background: rgba(238, 248, 255, 0.88);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -234,7 +234,7 @@ h3 {
   padding: 0.7rem 1.15rem;
   font-weight: 700;
   text-decoration: none;
-  background: linear-gradient(130deg, var(--wine), #8b4438);
+  background: linear-gradient(130deg, var(--wine), #4aa9ef);
   color: #fff;
   cursor: pointer;
 }
@@ -274,7 +274,7 @@ h3 {
 }
 
 .section.alt {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, rgba(206, 235, 255, 0.48), rgba(255, 255, 255, 0));
 }
 
 .head {
@@ -299,7 +299,7 @@ h3 {
   border-radius: var(--radius);
   padding: 1.2rem;
   background: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 6px 18px rgba(24, 21, 20, 0.06);
+  box-shadow: 0 6px 18px rgba(15, 50, 80, 0.08);
 }
 
 .product span {
@@ -407,7 +407,7 @@ textarea {
 }
 
 .lightbox::backdrop {
-  background: rgba(24, 21, 20, 0.7);
+  background: rgba(10, 34, 56, 0.7);
 }
 
 .lightbox img {
@@ -474,3 +474,4 @@ textarea {
     display: flex;
   }
 }
+
